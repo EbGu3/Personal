@@ -11,7 +11,14 @@ const string ConnectionName = "DBUniveristy";
 var connectionString = builder.Configuration.GetConnectionString(ConnectionName);
 
 //  3. Agregar Conexto
-builder.Services.AddDbContext<UniversityDBContext>(options => options.UseSqlServer(connectionString));
+try
+{
+    builder.Services.AddDbContext<UniversityDBContext>(options => options.UseSqlServer(connectionString));
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.ToString());
+}
 
 //  TODO: Conexion con la base de datos
 
