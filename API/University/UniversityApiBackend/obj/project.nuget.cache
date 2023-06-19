@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+Ae7LCNoUmOsMP1OYWeE/2la18rP74c657oJSU7P78hXfDaSl0TaScEtzBslyC1WQmdzhkTvsLQW6N74zGGiRw==",
+  "dgSpecHash": "wKZ6l7UNd7SGb39QBl47aIAFHTsEP01B09Yz+T77yoKGRUe5TiRlkCPBdMDCupJHuW0w4sp5mZ1dYpQjwETlxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ebgue\\Documents\\Bäckup\\Personal\\Programacion\\OpenBootcam\\Personal\\API\\University\\UniversityApiBackend\\UniversityApiBackend.csproj",
   "expectedPackageFiles": [
@@ -107,9 +107,13 @@
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\7.0.7\\microsoft.visualstudio.web.codegeneration.7.0.7.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\7.0.7\\microsoft.visualstudio.web.codegeneration.core.7.0.7.nupkg.sha512",
+    "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\7.0.7\\microsoft.visualstudio.web.codegeneration.design.7.0.7.nupkg.sha512",
+    "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\7.0.7\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.7.0.7.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\7.0.7\\microsoft.visualstudio.web.codegeneration.templating.7.0.7.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\7.0.7\\microsoft.visualstudio.web.codegeneration.utils.7.0.7.nupkg.sha512",
+    "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\7.0.7\\microsoft.visualstudio.web.codegenerators.mvc.7.0.7.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ebgue\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace UniversityApiBackend.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")] //localhost:<Puerto>/WeatherForecast
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -18,6 +18,8 @@ namespace UniversityApiBackend.Controllers
             _logger = logger;
         }
 
+        //  Metodo Get (Verbo) => Get to localhost:<Puerto>/WeatherForecast
+        //  Name => GetWeatherForecast
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
