@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Drawing.Printing;
 
 namespace UniversityApiBackend.Models.DataModels
 {
@@ -13,6 +14,15 @@ namespace UniversityApiBackend.Models.DataModels
         public string Goals { get; set; }
         public string Requirements { get; set; }
         public Level Level { get; set; }
+        
+        [Required]
+        public Chapters Chapters { get; set; }
+        
+
+        [Required]
+        public ICollection<Category> Categories { get; set; }
+        [Required]
+        public ICollection<Student> Students { get; set; }
 
         public Course ()
         {
@@ -20,8 +30,11 @@ namespace UniversityApiBackend.Models.DataModels
             ShortDescripcion = string.Empty;
             LargeDescription = string.Empty;
             TargetAudiences = string.Empty;
-            Goals = string.Empty;
             Requirements = string.Empty;
+            Goals = string.Empty;
+            Chapters = new Chapters();
+            Students= new List<Student>();
+            Categories = new List<Category>();
         }
     }
 
@@ -29,6 +42,7 @@ namespace UniversityApiBackend.Models.DataModels
     {
         Basic,
         Intermediate,
-        Advance
+        Advance,
+        Expert
     }
 }
