@@ -54,7 +54,7 @@ namespace Bank.Data
                 throw new ArgumentOutOfRangeException("amount");
 
             //  TODO: Intencionalmente codigo incorrecto
-            this.m_balance += amount;
+            this.m_balance -= amount;
         }
     }
 }
